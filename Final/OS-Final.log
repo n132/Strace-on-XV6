@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.15)  27 APR 2022 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.15)  28 APR 2022 10:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -405,27 +405,85 @@ Package pdftex.def Info: 1-12.png  used on input line 268.
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.272 
-       <./1-11.png>] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+       <./1-11.png>]
+<1-14.png, id=115, 421.575pt x 293.095pt>
+File: 1-14.png Graphic file (type png)
+<use 1-14.png>
+Package pdftex.def Info: 1-14.png  used on input line 299.
+(pdftex.def)             Requested size: 343.28249pt x 238.66681pt.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.288 \end{document}
-                     <./1-12.png>] (./OS-Final.aux)
+l.303 
+       <./1-12.png>]
+<1-15.png, id=123, 675.27281pt x 383.18156pt>
+File: 1-15.png Graphic file (type png)
+<use 1-15.png>
+Package pdftex.def Info: 1-15.png  used on input line 314.
+(pdftex.def)             Requested size: 343.28249pt x 194.80023pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.318 
+       <./1-14.png>]
+<1-16.png, id=131, 462.97969pt x 395.22656pt>
+File: 1-16.png Graphic file (type png)
+<use 1-16.png>
+Package pdftex.def Info: 1-16.png  used on input line 326.
+(pdftex.def)             Requested size: 289.07999pt x 246.78079pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.335 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.335 
+       <./1-15.png> <./1-16.png>]
+<1-17.png, id=140, 350.05782pt x 146.04562pt>
+File: 1-17.png Graphic file (type png)
+<use 1-17.png>
+Package pdftex.def Info: 1-17.png  used on input line 337.
+(pdftex.def)             Requested size: 289.07999pt x 120.61389pt.
+<1-18.png, id=141, 772.38562pt x 228.855pt>
+File: 1-18.png Graphic file (type png)
+<use 1-18.png>
+Package pdftex.def Info: 1-18.png  used on input line 346.
+(pdftex.def)             Requested size: 343.28249pt x 101.71269pt.
+<1-19.png, id=142, 624.83438pt x 152.06813pt>
+File: 1-19.png Graphic file (type png)
+<use 1-19.png>
+Package pdftex.def Info: 1-19.png  used on input line 359.
+(pdftex.def)             Requested size: 343.28249pt x 83.54723pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.367 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.367 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.367 \end{document}
+                     <./1-17.png> <./1-18.png> <./1-19.png>] (./OS-Final.aux)
 Package rerunfilecheck Info: File `OS-Final.out' has not changed.
 (rerunfilecheck)             Checksum: 81242CEE725E75C406ACDFD153F2BF9A;556.
  ) 
 Here is how much of TeX's memory you used:
- 9046 strings out of 480195
- 140613 string characters out of 5895046
+ 9098 strings out of 480195
+ 141220 string characters out of 5895046
  429435 words of memory out of 5000000
- 26858 multiletter control sequences out of 15000+600000
+ 26894 multiletter control sequences out of 15000+600000
  474181 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,7n,63p,311b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on OS-Final.pdf (12 pages, 456162 bytes).
+Output written on OS-Final.pdf (15 pages, 550461 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 191 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

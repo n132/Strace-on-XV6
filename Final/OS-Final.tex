@@ -283,6 +283,85 @@ process that execute the command. For example: when typing 'strace run echo hell
 terminal, we get the output tracing of echo hello."
 \end{quotation}
 
-For run, things are going easier
+For sub-command "RUN", we gonna run a command and strace the syscall of the command.
+So we can parse the parameter and use "fork" or "exec" syscall to run the command.
+
+I used the "exec" syscall for my strace and there is a disadvantage comparing with 
+the fork version. I know the fork version from my professor: 
+we can use "fork" to creat a child process and let the parent process wait for the 
+metadata of outputs from the kernel. So all the output part would be handledin user 
+space which is much more secure and beautiful. Howerver, I almost finish my implementation
+and there is no much time for this huge modification. Therefore, I'll keep my "exec"
+version and for my implementation I think they are similar on complesity.
+
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-14.png}
+    \centering
+    \caption{Supported Opetions}
+\end{figure}
+
+The "RUN" sub-command is the most complex part of my strace, I'll introduce some 
+basic idea about this sub-command in this parameter and explain the rest parts with
+the supported options. So how can we strace one command once?
+
+If we "RUN" a command, we are going to use "fork" to create a new process or use 
+"exec" to run a executable file by using current memory space. We must have a way to 
+pass the information that the new process shoud be traced. In order to implement this,
+I add a new element in "proc" struct in proc.
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-15.png}
+    \centering
+    \caption{Strace a Process}
+\end{figure}
+
+As you can see in the above figure, I add a unsigned interger to the proc struct.
+I don't want to wast unnecessary space in the kernel space.
+so I would use this 4 bytes variable to store all the strace information such as 
+output filter information and output format information. I'll explain the struct of
+this variable in option-related paragraph.
+
+\begin{figure}[H]
+    \includegraphics[width=4.00in]{1-16.png}
+    \centering
+    \caption{RUN Sub-command in User Space}
+\end{figure}
+
+The above figure is my userspace interface and corresponding system call implementation.
+As you can see I use the 26th bit of the "pstrace" to sign if the kernel should strace
+the process. Another advantage of having a variable in the "proc" struc is that we can 
+easily follow the subprocess by modify the "fork" function in "proc.c".
+
+\begin{figure}[H]
+    \includegraphics[width=4.00in]{1-17.png}
+    \centering
+    \caption{Trace the Child Processes}
+\end{figure}
+
+Now we can use strace to run strace any process! There is a simple demo of "RUN" 
+sub-command.
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-18.png}
+    \centering
+    \caption{Strace RUN}
+\end{figure}
+
+\paragraph*{Opetions}
+
+\begin{quotation}
+    Our strace supports kinds of output filter and format options which could help to 
+eliminate the uninterested sycalls. 
+\end{quotation}
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-19.png}
+    \centering
+    \caption{Supported Opetions}
+\end{figure}
+
+
+
 
 \end{document}
