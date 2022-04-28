@@ -351,7 +351,7 @@ sub-command.
 \paragraph*{Opetions}
 
 \begin{quotation}
-    Our strace supports kinds of output filter and format options which could help to 
+    My strace supports kinds of output filter and format options which could help to 
 eliminate the uninterested sycalls. 
 \end{quotation}
 
@@ -361,7 +361,149 @@ eliminate the uninterested sycalls.
     \caption{Supported Opetions}
 \end{figure}
 
+I would parse the parameters in the user space and use the strace syscall to 
+pass the operations to the kernel mode. 
+As we talked in previous paragraph, the atomic unit of strace is the process so 
+we need a variable in proc stuct to tell strace-kernel what shoud it do. I'll 
+introduce every bits of "pstrace" variable in following paragraphs. And you can 
+check the struct of the variable in the following figure:
 
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{pstrace.png}
+    \centering
+    \caption{"pstrace" in "proc"}
+\end{figure}
+
+
+\begin{quotation}
+    Option -e [system call name]:
+    When option flag -e is provided follow by a system call name, we will print only that
+    system call. If no such system call is made in the command, print nothing.
+
+    Option -s:
+    When option flag -s is provided, print only successful system call.
+
+    Option -f:
+    When option flag -f is provided, print only failed system call.
+
+    Option -s:
+    Options -c in strace will generate a statistic report of system call regarding the input command
+    such as duration, total call, failed call. Create a similar report table with using option -c.
+
+    Option -f:
+    When option flag -f is provided, print more readable output.
+
+\end{quotation}
+
+We have 21 syscalls on xv6 and 5 different opetions, so we can store these informations
+in a 32-bit variable. As you can see in the figrue, I use 21+1 bit for "-e" option. 
+
+
+\paragraph*{Option -e}
+The 0th bit is the inuse-bit of 1-22 bits. For example, if we don't run strace with
+the "-e" flag the 0th bit is 0, the strace-kernel would not check the syscall filter.
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-20.png}
+    \centering
+    \caption{-e Opetion Implementation}
+\end{figure}
+
+The above figure is the user space and the kernel space handler of "-e" operation.
+The user space handler would use strace syscall to pass the filter to the kernel space 
+which is a whitelist of syscalls while the kernel space would enable the syscall filter 
+and apply the filter. 
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-21.png}
+    \centering
+    \caption{-e Opetion Demo}
+\end{figure}
+
+
+The above figure is a screeshot of the usage of "-e" opetion and as you can see, 
+my implementation could naturally handle combination of "-e" opetion.
+
+\paragraph*{Option -s/f}
+
+The 23th and 24th bit of pstrace is design for "-s/f" flag. The 23th bit is the 
+inuse-bit of 24th bit. And if 24th bit is 0, the kernel would only record successful
+syscalls while if 24th bit is 1, the kernel would only record failed syscalls.
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-22.png}
+    \centering
+    \caption{-s/f Opetion Implementation(Handler)}
+\end{figure}
+
+The above figure is the user space and the kernel space handler of "-s/f" operation.
+The user part would simplely parse the arguments and call the kernel to apply the filter.
+Also, the kernel mode would apply the operation to the pstrace of the proc. And as you
+can see in the beneath figure we will check the filter before printing out the syscall in "add\_one\_record".
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-23.png}
+    \centering
+    \caption{-s/f Opetion Implementation(Filter)}
+\end{figure}
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-26.png}
+    \centering
+    \caption{-s/f Opetion Demo}
+\end{figure}
+
+So far we finish the introduction of filter options (-s/f/e), and we'll move to format 
+options in the following paragraphs.
+
+\paragraph*{Option -F}
+\begin{quotation}
+    "Depends on your implementation, you might notice your command result is printed along with your
+strace result which cause tracing to be difficult to read when characters keep mix up between line
+(ex: 'ls' has a very long list result). Choose one of the follow approach to solve this issue:"
+\end{quotation}
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-27.png}
+    \centering
+    \caption{-F Opetion Implementation(Handler)}
+\end{figure}
+
+For this option, we need to "pause" the stace output until the process finished its output.
+So I would store the output in someplace and dump it after the process exits by reuse partial 
+code of "DUMP" sub-command. This is quite simple and elegant but it has a little flaw: What if
+the process calss tons of syscall and we could only store latest N records. 
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-24.png}
+    \centering
+    \caption{-F Opetion Implementation}
+\end{figure}
+
+For this issue, I can just set a variable to monitor the storage and dump the records if 
+we are in "-F" mode. But I think this method would break XV6's simplely so I would rather 
+mention this issue in the README.md. And the follow figrue shows the output of "-F" option.
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-25.png}
+    \centering
+    \caption{-F Opetion Demo}
+\end{figure}
+
+\paragraph*{Option -c}
+\begin{quotation}
+    "Options -c in strace will generate a statistic report of system call regarding the input command
+    such as duration, total call, failed call. Create a similar report table with using option -c."
+\end{quotation}
+
+The "-c" would show the metrics of the command. We need to store more informations abotu 
+the syscalls so that allocating more space is necessary. 
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-28.png}
+    \centering
+    \caption{Nodes' Struct}
+\end{figure}
 
 
 \end{document}
