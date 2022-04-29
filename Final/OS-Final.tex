@@ -498,12 +498,88 @@ mention this issue in the README.md. And the follow figrue shows the output of "
 
 The "-c" would show the metrics of the command. We need to store more informations abotu 
 the syscalls so that allocating more space is necessary. 
+For time recording, I would use uptime syscall to calculate the time used for every syscall.
+And it's easy to count the error number and usage number in function "add\_one\_record".
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-30.png}
+    \centering
+    \caption{-C Option Implementation}
+\end{figure}
+And just before the exit, the "metric" function would be triggered and dump the "-c" 
+related informations as the following figure.
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-31.png}
+    \centering
+    \caption{-C Option Demo}
+    \includegraphics[width=4.75in]{1-32.png}
+    \centering
+    \caption{-C Option Demo}
+\end{figure}
+And it's great to know "evec" costs such much (33 times more than read)!
+
+\paragraph*{Option -o}
+\begin{quotation}
+    "Find an implementation of choice to write strace output to file.
+    For example: by providing option: -o 'filename' or editing content of README."
+\end{quotation}
 
 \begin{figure}[H]
-    \includegraphics[width=4.75in]{1-28.png}
+    \includegraphics[width=4.75in]{1-33.png}
     \centering
-    \caption{Nodes' Struct}
+    \caption{-o Option Userspace Handler}
 \end{figure}
 
+This one is the hardests one for my implementation because I use "exec" to run the command
+rather than the fork. So I need to handle all the things in the kernel which is not secure.
+As you see in above figure, I can easily finish the userspace interface. Similar to what 
+we learned in "sh.c", I just redirecte the stderr to the given file. 
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-34.png}
+    \centering
+    \caption{Format Print in Kernel}
+\end{figure}
+
+But unluckly, we don't have "printf" in the kernel to store the data in to stderr.
+So I need to implement a limited "printf" to store the output to the stdin out. 
+I use readfile to achieve that as above code shows. I replace all output functions
+with my "format print" functions so that "-o" could naturally work with other 
+commands and options, which is shown in the beneath figure.
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-35.png}
+    \centering
+    \caption{-o Opetion Demo}
+\end{figure}
+
+
+
+
+\section{Usage Details}
+
+
+\section{Testing}
+
+\section{Todo}
+
+\section{Summary}
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-36.png}
+    \centering
+    \caption{Structure}
+\end{figure}
+There are two main parts of this implementation: Kernel Space Part and User Space Part.
+
+In the user space I use the binary strace as the interface to
+transfer data to the kernel. And the main handler is the file "kernel/proc.c". I
+implement an strace syscall and deal with kinds of parameters. 
+
+In the kernel space, I use the metadata got from the strace syscall to set the
+output format/filter options. Also, I use the kernel variables to implemt
+"strace on/off".
+
+
+And you can check all the supported features in above figrue.
 
 \end{document}
