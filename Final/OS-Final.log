@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.15)  29 APR 2022 12:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.2.15)  29 APR 2022 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -278,392 +278,447 @@ File: pstrace.png Graphic file (type png)
 <use pstrace.png>
 Package pdftex.def Info: pstrace.png  used on input line 15.
 (pdftex.def)             Requested size: 343.28249pt x 104.69772pt.
-<1-3.png, id=39, 813.0375pt x 782.17218pt>
-File: 1-3.png Graphic file (type png)
-<use 1-3.png>
-Package pdftex.def Info: 1-3.png  used on input line 38.
-(pdftex.def)             Requested size: 343.28249pt x 330.24065pt.
  [1
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.42 
-      <./pstrace.png>] [2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+l.43 
+      <./pstrace.png>]
+<1-3.png, id=52, 813.0375pt x 782.17218pt>
+File: 1-3.png Graphic file (type png)
+<use 1-3.png>
+Package pdftex.def Info: 1-3.png  used on input line 55.
+(pdftex.def)             Requested size: 343.28249pt x 330.24065pt.
+ [2pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.61 A
-      nd the mprotect is used  to change the permission of memory. The mprot... <./1-3.png>]
-<1-4.png, id=57, 630.10406pt x 97.11281pt>
+l.67 
+      <./1-3.png>]
+<1-4.png, id=59, 630.10406pt x 97.11281pt>
 File: 1-4.png Graphic file (type png)
 <use 1-4.png>
-Package pdftex.def Info: 1-4.png  used on input line 86.
+Package pdftex.def Info: 1-4.png  used on input line 103.
 (pdftex.def)             Requested size: 343.28249pt x 52.90689pt.
- [3pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.107 
-       <./1-4.png>]
+ [3]
 <1-5.png, id=64, 442.65375pt x 277.78781pt>
 File: 1-5.png Graphic file (type png)
 <use 1-5.png>
-Package pdftex.def Info: 1-5.png  used on input line 129.
+Package pdftex.def Info: 1-5.png  used on input line 146.
 (pdftex.def)             Requested size: 343.28249pt x 215.44014pt.
-<1-6.png, id=65, 426.09187pt x 411.78844pt>
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.150 L
+       ike what shows in the above figure, I set a global variable in "syspr... <./1-4.png>]
+<1-6.png, id=72, 426.09187pt x 411.78844pt>
 File: 1-6.png Graphic file (type png)
 <use 1-6.png>
-Package pdftex.def Info: 1-6.png  used on input line 137.
+Package pdftex.def Info: 1-6.png  used on input line 154.
 (pdftex.def)             Requested size: 343.28249pt x 331.77489pt.
- [4pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.140 \end{figure}
-                   <./1-5.png>] [5pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+l.158 A
+       s you can see in the above figure, I parse the parameters from the co... <./1-5.png>] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.160 
+l.177 
        <./1-6.png>]
-<1-1.png, id=80, 495.35063pt x 257.46187pt>
+<1-1.png, id=85, 495.35063pt x 257.46187pt>
 File: 1-1.png Graphic file (type png)
 <use 1-1.png>
-Package pdftex.def Info: 1-1.png  used on input line 162.
+Package pdftex.def Info: 1-1.png  used on input line 179.
 (pdftex.def)             Requested size: 343.28249pt x 178.42279pt.
-<1-2.png, id=81, 621.82312pt x 234.1247pt>
+<1-2.png, id=86, 621.82312pt x 234.1247pt>
 File: 1-2.png Graphic file (type png)
 <use 1-2.png>
-Package pdftex.def Info: 1-2.png  used on input line 174.
+Package pdftex.def Info: 1-2.png  used on input line 191.
 (pdftex.def)             Requested size: 343.28249pt x 129.25125pt.
-<1-7.png, id=82, 587.94656pt x 272.51813pt>
+<1-7.png, id=87, 587.94656pt x 272.51813pt>
 File: 1-7.png Graphic file (type png)
 <use 1-7.png>
-Package pdftex.def Info: 1-7.png  used on input line 184.
+Package pdftex.def Info: 1-7.png  used on input line 201.
 (pdftex.def)             Requested size: 343.28249pt x 159.11266pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.188 
+l.205 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.188 
+l.205 
        <./1-1.png> <./1-2.png>]
-<1-8.png, id=91, 526.21594pt x 93.34875pt>
+<1-8.png, id=97, 526.21594pt x 93.34875pt>
 File: 1-8.png Graphic file (type png)
 <use 1-8.png>
-Package pdftex.def Info: 1-8.png  used on input line 194.
+Package pdftex.def Info: 1-8.png  used on input line 211.
 (pdftex.def)             Requested size: 343.28249pt x 60.89958pt.
-<1-13.png, id=92, 754.31813pt x 233.37187pt>
+<1-13.png, id=98, 754.31813pt x 233.37187pt>
 File: 1-13.png Graphic file (type png)
 <use 1-13.png>
-Package pdftex.def Info: 1-13.png  used on input line 203.
+Package pdftex.def Info: 1-13.png  used on input line 220.
 (pdftex.def)             Requested size: 343.28249pt x 106.20216pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.217 \paragraph
+l.234 \paragraph
                 *{DUMP}pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.217 \paragraph
+l.234 \paragraph
                 *{DUMP}pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.217 \paragraph
+l.234 \paragraph
                 *{DUMP} <./1-7.png> <./1-8.png> <./1-13.png>]
-<1-9.png, id=104, 370.38374pt x 501.37312pt>
+<1-9.png, id=109, 370.38374pt x 501.37312pt>
 File: 1-9.png Graphic file (type png)
 <use 1-9.png>
-Package pdftex.def Info: 1-9.png  used on input line 233.
+Package pdftex.def Info: 1-9.png  used on input line 250.
 (pdftex.def)             Requested size: 343.28249pt x 464.69621pt.
- [8]
-<1-10.png, id=110, 532.99126pt x 374.90062pt>
+ [9]
+<1-10.png, id=115, 532.99126pt x 374.90062pt>
 File: 1-10.png Graphic file (type png)
 <use 1-10.png>
-Package pdftex.def Info: 1-10.png  used on input line 247.
+Package pdftex.def Info: 1-10.png  used on input line 264.
 (pdftex.def)             Requested size: 343.28249pt x 241.46867pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.250 \end{figure}
+l.267 \end{figure}
                    <./1-9.png>]
-<1-11.png, id=117, 520.94624pt x 439.6425pt>
+<1-11.png, id=122, 520.94624pt x 439.6425pt>
 File: 1-11.png Graphic file (type png)
 <use 1-11.png>
-Package pdftex.def Info: 1-11.png  used on input line 257.
+Package pdftex.def Info: 1-11.png  used on input line 274.
 (pdftex.def)             Requested size: 343.28249pt x 289.70877pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.261 
+l.278 
        <./1-10.png>]
-<1-12.png, id=124, 797.22844pt x 426.84468pt>
+<1-12.png, id=129, 797.22844pt x 426.84468pt>
 File: 1-12.png Graphic file (type png)
 <use 1-12.png>
-Package pdftex.def Info: 1-12.png  used on input line 268.
+Package pdftex.def Info: 1-12.png  used on input line 285.
 (pdftex.def)             Requested size: 343.28249pt x 183.79364pt.
- [11pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.272 
+l.289 
        <./1-11.png>]
-<1-39.png, id=131, 511.9125pt x 398.23781pt>
+<1-39.png, id=136, 511.9125pt x 398.23781pt>
 File: 1-39.png Graphic file (type png)
 <use 1-39.png>
-Package pdftex.def Info: 1-39.png  used on input line 299.
+Package pdftex.def Info: 1-39.png  used on input line 316.
 (pdftex.def)             Requested size: 343.28249pt x 267.05493pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.303 
+l.320 
        <./1-12.png>]
-<1-15.png, id=139, 675.27281pt x 383.18156pt>
+<1-15.png, id=145, 675.27281pt x 383.18156pt>
 File: 1-15.png Graphic file (type png)
 <use 1-15.png>
-Package pdftex.def Info: 1-15.png  used on input line 314.
+Package pdftex.def Info: 1-15.png  used on input line 331.
 (pdftex.def)             Requested size: 343.28249pt x 194.80023pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.318 
-       <./1-39.png>]
-<1-16.png, id=147, 462.97969pt x 395.22656pt>
-File: 1-16.png Graphic file (type png)
-<use 1-16.png>
-Package pdftex.def Info: 1-16.png  used on input line 326.
-(pdftex.def)             Requested size: 289.07999pt x 246.78079pt.
- [14pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.335 
+       <./1-39.png>]
+<1-16.png, id=152, 462.97969pt x 395.22656pt>
+File: 1-16.png Graphic file (type png)
+<use 1-16.png>
+Package pdftex.def Info: 1-16.png  used on input line 343.
+(pdftex.def)             Requested size: 289.07999pt x 246.78079pt.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.352 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.335 
+l.352 
        <./1-15.png> <./1-16.png>]
-<1-17.png, id=156, 350.05782pt x 146.04562pt>
+<1-17.png, id=161, 350.05782pt x 146.04562pt>
 File: 1-17.png Graphic file (type png)
 <use 1-17.png>
-Package pdftex.def Info: 1-17.png  used on input line 337.
+Package pdftex.def Info: 1-17.png  used on input line 354.
 (pdftex.def)             Requested size: 289.07999pt x 120.61389pt.
-<1-18.png, id=157, 772.38562pt x 228.855pt>
+<1-18.png, id=162, 772.38562pt x 228.855pt>
 File: 1-18.png Graphic file (type png)
 <use 1-18.png>
-Package pdftex.def Info: 1-18.png  used on input line 346.
+Package pdftex.def Info: 1-18.png  used on input line 363.
 (pdftex.def)             Requested size: 343.28249pt x 101.71269pt.
-<1-19.png, id=158, 624.83438pt x 152.06813pt>
+<1-19.png, id=163, 624.83438pt x 152.06813pt>
 File: 1-19.png Graphic file (type png)
 <use 1-19.png>
-Package pdftex.def Info: 1-19.png  used on input line 359.
+Package pdftex.def Info: 1-19.png  used on input line 376.
 (pdftex.def)             Requested size: 343.28249pt x 83.54723pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.370 
+l.387 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.370 
+l.387 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.370 
+l.387 
        <./1-17.png> <./1-18.png> <./1-19.png>]
 File: pstrace.png Graphic file (type png)
 <use pstrace.png>
-Package pdftex.def Info: pstrace.png  used on input line 372.
+Package pdftex.def Info: pstrace.png  used on input line 389.
 (pdftex.def)             Requested size: 343.28249pt x 104.69772pt.
-<1-20.png, id=170, 889.82437pt x 449.42906pt>
+<1-20.png, id=175, 889.82437pt x 449.42906pt>
 File: 1-20.png Graphic file (type png)
 <use 1-20.png>
-Package pdftex.def Info: 1-20.png  used on input line 407.
+Package pdftex.def Info: 1-20.png  used on input line 424.
 (pdftex.def)             Requested size: 343.28249pt x 173.38388pt.
- [16pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.411 
+l.428 
       ]
-<1-21.png, id=177, 797.22844pt x 217.5628pt>
+<1-21.png, id=183, 797.22844pt x 217.5628pt>
 File: 1-21.png Graphic file (type png)
 <use 1-21.png>
-Package pdftex.def Info: 1-21.png  used on input line 418.
+Package pdftex.def Info: 1-21.png  used on input line 435.
 (pdftex.def)             Requested size: 343.28249pt x 93.67964pt.
-<1-22.png, id=178, 572.89032pt x 500.62032pt>
+<1-22.png, id=184, 572.89032pt x 500.62032pt>
 File: 1-22.png Graphic file (type png)
 <use 1-22.png>
-Package pdftex.def Info: 1-22.png  used on input line 434.
+Package pdftex.def Info: 1-22.png  used on input line 451.
 (pdftex.def)             Requested size: 343.28249pt x 299.97728pt.
- [17pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.438 
+l.455 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.23}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.438 
+l.455 
        <./1-20.png> <./1-21.png>]
-<1-23.png, id=189, 465.99094pt x 184.43906pt>
+<1-23.png, id=194, 465.99094pt x 184.43906pt>
 File: 1-23.png Graphic file (type png)
 <use 1-23.png>
-Package pdftex.def Info: 1-23.png  used on input line 445.
+Package pdftex.def Info: 1-23.png  used on input line 462.
 (pdftex.def)             Requested size: 343.28249pt x 135.87486pt.
-<1-26.png, id=190, 745.28438pt x 180.675pt>
+<1-26.png, id=195, 745.28438pt x 180.675pt>
 File: 1-26.png Graphic file (type png)
 <use 1-26.png>
-Package pdftex.def Info: 1-26.png  used on input line 451.
+Package pdftex.def Info: 1-26.png  used on input line 468.
 (pdftex.def)             Requested size: 343.28249pt x 83.21901pt.
- [18pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) has been already used, duplicate ignored
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.24}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.455 
+l.472 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.25}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.455 
+l.472 
        <./1-22.png> <./1-23.png>]
-<1-27.png, id=199, 365.86688pt x 414.79968pt>
+<1-27.png, id=205, 365.86688pt x 414.79968pt>
 File: 1-27.png Graphic file (type png)
 <use 1-27.png>
-Package pdftex.def Info: 1-27.png  used on input line 467.
+Package pdftex.def Info: 1-27.png  used on input line 484.
 (pdftex.def)             Requested size: 343.28249pt x 389.21553pt.
- [19pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.26}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.471 
+l.488 
        <./1-26.png>]
-<1-24.png, id=208, 593.96906pt x 305.64188pt>
+<1-24.png, id=213, 593.96906pt x 305.64188pt>
 File: 1-24.png Graphic file (type png)
 <use 1-24.png>
-Package pdftex.def Info: 1-24.png  used on input line 478.
+Package pdftex.def Info: 1-24.png  used on input line 495.
 (pdftex.def)             Requested size: 343.28249pt x 176.65213pt.
- [20pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
+ [21pdfTeX warning (ext4): destination with the same identifier (name{figure.27}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.482 
+l.499 
        <./1-27.png>]
-<1-25.png, id=215, 536.0025pt x 391.4625pt>
+<1-25.png, id=220, 536.0025pt x 391.4625pt>
 File: 1-25.png Graphic file (type png)
 <use 1-25.png>
-Package pdftex.def Info: 1-25.png  used on input line 488.
+Package pdftex.def Info: 1-25.png  used on input line 505.
 (pdftex.def)             Requested size: 343.28249pt x 250.70836pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.28}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.497 \end{quotation}
+l.514 \end{quotation}
                      pdfTeX warning (ext4): destination with the same identifier (name{figure.29}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.497 \end{quotation}
+l.514 \end{quotation}
                       <./1-24.png> <./1-25.png>]
-<1-37.png, id=225, 401.24907pt x 258.21469pt>
+<1-37.png, id=230, 401.24907pt x 258.21469pt>
 File: 1-37.png Graphic file (type png)
 <use 1-37.png>
-Package pdftex.def Info: 1-37.png  used on input line 500.
+Package pdftex.def Info: 1-37.png  used on input line 517.
 (pdftex.def)             Requested size: 343.28249pt x 220.92557pt.
-<1-30.png, id=226, 504.38437pt x 325.96782pt>
+<1-30.png, id=231, 504.38437pt x 325.96782pt>
 File: 1-30.png Graphic file (type png)
 <use 1-30.png>
-Package pdftex.def Info: 1-30.png  used on input line 510.
+Package pdftex.def Info: 1-30.png  used on input line 527.
 (pdftex.def)             Requested size: 343.28249pt x 221.85413pt.
- [22pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
+ [23pdfTeX warning (ext4): destination with the same identifier (name{figure.30}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.514 A
+l.531 A
        nd just before the exit, the "metric" function would be triggered and... <./1-37.png>]
-<1-31.png, id=233, 670.75594pt x 372.64218pt>
+<1-31.png, id=238, 670.75594pt x 372.64218pt>
 File: 1-31.png Graphic file (type png)
 <use 1-31.png>
-Package pdftex.def Info: 1-31.png  used on input line 517.
+Package pdftex.def Info: 1-31.png  used on input line 534.
 (pdftex.def)             Requested size: 343.28249pt x 190.71027pt.
-<1-32.png, id=234, 478.03593pt x 484.05844pt>
+<1-32.png, id=239, 478.03593pt x 484.05844pt>
 File: 1-32.png Graphic file (type png)
 <use 1-32.png>
-Package pdftex.def Info: 1-32.png  used on input line 520.
+Package pdftex.def Info: 1-32.png  used on input line 537.
 (pdftex.def)             Requested size: 343.28249pt x 347.60593pt.
- [23pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.31}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.524 A
-       nd it's great to know "evec" costs such much (33 times more than read)! <./1-30.png>] [24pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
+l.541 A
+       nd it's great to know "even" costs such much (33 times more than read... <./1-30.png>] [25pdfTeX warning (ext4): destination with the same identifier (name{figure.32}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.525 
+l.542 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.33}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.525 
+l.542 
        <./1-31.png> <./1-32.png>]
-<1-33.png, id=249, 484.81125pt x 201.00093pt>
+<1-33.png, id=255, 484.81125pt x 201.00093pt>
 File: 1-33.png Graphic file (type png)
 <use 1-33.png>
-Package pdftex.def Info: 1-33.png  used on input line 533.
+Package pdftex.def Info: 1-33.png  used on input line 550.
 (pdftex.def)             Requested size: 343.28249pt x 142.33133pt.
-<1-34.png, id=250, 362.10281pt x 397.485pt>
+<1-34.png, id=256, 362.10281pt x 397.485pt>
 File: 1-34.png Graphic file (type png)
 <use 1-34.png>
-Package pdftex.def Info: 1-34.png  used on input line 544.
+Package pdftex.def Info: 1-34.png  used on input line 561.
 (pdftex.def)             Requested size: 343.28249pt x 376.83226pt.
- [25pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.34}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.548 
+l.565 
        <./1-33.png>]
-<1-35.png, id=259, 737.00343pt x 196.48407pt>
+<1-35.png, id=264, 737.00343pt x 196.48407pt>
 File: 1-35.png Graphic file (type png)
 <use 1-35.png>
-Package pdftex.def Info: 1-35.png  used on input line 556.
+Package pdftex.def Info: 1-35.png  used on input line 573.
 (pdftex.def)             Requested size: 343.28249pt x 91.51704pt.
- [26pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
+ [27pdfTeX warning (ext4): destination with the same identifier (name{figure.35}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.560 
+l.577 
        <./1-34.png>]
-<1-36.png, id=266, 783.92876pt x 161.60374pt>
+<1-40.png, id=271, 417.81094pt x 386.19281pt>
+File: 1-40.png Graphic file (type png)
+<use 1-40.png>
+Package pdftex.def Info: 1-40.png  used on input line 586.
+(pdftex.def)             Requested size: 343.28249pt x 317.32245pt.
+ [28pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.594 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.594 
+       <./1-35.png> <./1-40.png>]
+<1-41.png, id=280, 551.05875pt x 177.66376pt>
+File: 1-41.png Graphic file (type png)
+<use 1-41.png>
+Package pdftex.def Info: 1-41.png  used on input line 599.
+(pdftex.def)             Requested size: 343.28249pt x 110.67902pt.
+<1-42.png, id=281, 729.47531pt x 225.84375pt>
+File: 1-42.png Graphic file (type png)
+<use 1-42.png>
+Package pdftex.def Info: 1-42.png  used on input line 610.
+(pdftex.def)             Requested size: 343.28249pt x 106.27751pt.
+<1-43.png, id=282, 657.95813pt x 582.67688pt>
+File: 1-43.png Graphic file (type png)
+<use 1-43.png>
+Package pdftex.def Info: 1-43.png  used on input line 618.
+(pdftex.def)             Requested size: 343.28249pt x 304.0073pt.
+ [29pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.622 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.622 
+       <./1-41.png> <./1-42.png>]
+<1-44.png, id=292, 460.72125pt x 122.70844pt>
+File: 1-44.png Graphic file (type png)
+<use 1-44.png>
+Package pdftex.def Info: 1-44.png  used on input line 629.
+(pdftex.def)             Requested size: 343.28249pt x 91.43005pt.
+
+Overfull \hbox (23.77795pt too wide) in paragraph at lines 635--636
+ []\OT1/cmr/bx/n/10.95 More Test-ing \OT1/cmr/m/n/10.95 Also, I write lots of test cases to test my strace in /Test[]Log.MD. 
+ []
+
+[30pdfTeX warning (ext4): destination with the same identifier (name{figure.40}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.643 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.41}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.643 
+       <./1-43.png> <./1-44.png>]
+<1-36.png, id=302, 783.92876pt x 161.60374pt>
 File: 1-36.png Graphic file (type png)
 <use 1-36.png>
-Package pdftex.def Info: 1-36.png  used on input line 593.
+Package pdftex.def Info: 1-36.png  used on input line 665.
 (pdftex.def)             Requested size: 343.28249pt x 70.76804pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.36}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.597 T
-       here are two main parts of this implementation: Kernel Space Part and... <./1-35.png>]
 File: 1-39.png Graphic file (type png)
 <use 1-39.png>
-Package pdftex.def Info: 1-39.png  used on input line 609.
+Package pdftex.def Info: 1-39.png  used on input line 681.
 (pdftex.def)             Requested size: 343.28249pt x 267.05493pt.
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.42}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.685 
+       <./1-36.png>]
 File: pstrace.png Graphic file (type png)
 <use pstrace.png>
-Package pdftex.def Info: pstrace.png  used on input line 618.
+Package pdftex.def Info: pstrace.png  used on input line 690.
 (pdftex.def)             Requested size: 343.28249pt x 104.69772pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.37}) has been already used, duplicate ignored
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.43}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.622 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.38}) has been already used, duplicate ignored
+l.701 \end{document}
+                    pdfTeX warning (ext4): destination with the same identifier (name{figure.44}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.622 
-       <./1-36.png>] [29pdfTeX warning (ext4): destination with the same identifier (name{figure.39}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.629 \end{document}
-                    ] (./OS-Final.aux)
+l.701 \end{document}
+                    ] [33] (./OS-Final.aux)
 Package rerunfilecheck Info: File `OS-Final.out' has not changed.
-(rerunfilecheck)             Checksum: 97F52B70A014791D1AD84B623198C997;919.
+(rerunfilecheck)             Checksum: 9A916259EA9ED41AB5F6C6166D608404;995.
  ) 
 Here is how much of TeX's memory you used:
- 9259 strings out of 480195
- 143044 string characters out of 5895046
+ 9306 strings out of 480195
+ 143585 string characters out of 5895046
  429435 words of memory out of 5000000
- 26994 multiletter control sequences out of 15000+600000
+ 27024 multiletter control sequences out of 15000+600000
  474181 words of font info for 45 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  60i,7n,63p,311b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on OS-Final.pdf (29 pages, 879227 bytes).
+Output written on OS-Final.pdf (33 pages, 951206 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 217 compressed objects within 3 object streams
- 89 named destinations out of 1000 (max. 500000)
- 245 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 270 words of extra memory for PDF output out of 10000 (max. 10000000)
 
