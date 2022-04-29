@@ -296,7 +296,7 @@ version and for my implementation I think they are similar on complesity.
 
 
 \begin{figure}[H]
-    \includegraphics[width=4.75in]{1-14.png}
+    \includegraphics[width=4.75in]{1-39.png}
     \centering
     \caption{Supported Opetions}
 \end{figure}
@@ -496,6 +496,12 @@ mention this issue in the README.md. And the follow figrue shows the output of "
     such as duration, total call, failed call. Create a similar report table with using option -c."
 \end{quotation}
 
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-37.png}
+    \centering
+    \caption{-C Option User Space Implementation}
+\end{figure}
+
 The "-c" would show the metrics of the command. We need to store more informations abotu 
 the syscalls so that allocating more space is necessary. 
 For time recording, I would use uptime syscall to calculate the time used for every syscall.
@@ -510,10 +516,10 @@ related informations as the following figure.
 \begin{figure}[H]
     \includegraphics[width=4.75in]{1-31.png}
     \centering
-    \caption{-C Option Demo}
+    \caption{-c Option Demo}
     \includegraphics[width=4.75in]{1-32.png}
     \centering
-    \caption{-C Option Demo}
+    \caption{-c Option Demo}
 \end{figure}
 And it's great to know "evec" costs such much (33 times more than read)!
 
@@ -552,17 +558,36 @@ commands and options, which is shown in the beneath figure.
     \caption{-o Opetion Demo}
 \end{figure}
 
-
-
-
-\section{Usage Details}
-
-
 \section{Testing}
+
+I write some testcase to test my strace in xxx.
 
 \section{Todo}
 
-\section{Summary}
+During the implementing and the testing, I noticed there are sevral flaws in my 
+implementation. And I decide to left these flaws in my code 
+because I didn't have time to improve these issues and this is a educational assignment
+rather than a product.
+
+\paragraph*{Strace RUN}
+For strace run, it's better to use fork because for some options we need to store the 
+data until the process exits. So we need a parent process to wait for the child process 
+as a daemon and finish the output task after the child process exits, as it's more 
+secure to write a file in user space.
+
+\paragraph*{-F Option}
+This is a special issue with -F option which aims at printing more readable output.
+For protect the simplecity of the xv6 kernel, I dicide not to implement a mechanism
+to deal with infinity syscall records. So if there are more than N records when running
+the command, I would only print out the last N records rather than all the records.
+
+\paragraph*{Race Condition}
+We should be very paranoid to the kernel global variables. If there are more than one
+processes, we may have race condition! I didn't think much about this and only did some
+simple testing on that. More paranoid code review shoud be taken for anycode in kernel.
+
+
+\section{Structure of Strace}
 
 \begin{figure}[H]
     \includegraphics[width=4.75in]{1-36.png}
@@ -577,9 +602,28 @@ implement an strace syscall and deal with kinds of parameters.
 
 In the kernel space, I use the metadata got from the strace syscall to set the
 output format/filter options. Also, I use the kernel variables to implemt
-"strace on/off".
+"strace on/off". And you can check all the supported features in above figrue.
 
 
-And you can check all the supported features in above figrue.
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{1-39.png}
+    \centering
+    \caption{Supported Features}
+\end{figure}
+
+
+\section{Summary}
+
+\begin{figure}[H]
+    \includegraphics[width=4.75in]{pstrace.png}
+    \centering
+    \caption{My Strace}
+\end{figure}
+
+The above figure is my pstrace's structure I spent lots time on it to make it elegant.
+It seems I may overachieve the assignments but I am really happy I didn't wast the oppotunity
+to push myself. As a result, I learned a lot during this assignment and have a more 
+complete view of the unix kernel. And I could feel that the knowledge I learned on 
+the course and the xv6 could be used to understand really Linux kernel. 
 
 \end{document}
